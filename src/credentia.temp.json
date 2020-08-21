@@ -1,0 +1,26 @@
+{
+    "token": {
+        "kvToken": {
+            "expireTime": 86400,
+            "secret": "helloworld"
+        }
+    },
+    "database": {
+        "db": "ivuu",
+        "host": "",
+        "host_sub": "",
+        "port": 27028,
+        "uname": "",
+        "passwd": "",
+        "options": {
+            "autoReconnect": true,
+            "useNewUrlParser": true
+        }
+    },
+    "cacheDb": {
+        "host": "",
+        "port": 6379,
+        "auth_pass": "",
+        "expire_time": 300
+    }
+}
